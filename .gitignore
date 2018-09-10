@@ -1,0 +1,14 @@
+# Exclude
+node_modules
+.cache
+dist
+plan.txt
+src/playground/**
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
