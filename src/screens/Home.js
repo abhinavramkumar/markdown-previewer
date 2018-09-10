@@ -9,7 +9,7 @@ import {
   Output,
   CopyButton
 } from "./styles";
-import { generateMarkdown } from "../playground";
+import { generateMarkdown } from "../utils";
 
 class Home extends Component {
   state = {
