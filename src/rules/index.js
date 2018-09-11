@@ -64,5 +64,23 @@ export const RegRules = {
       reg: /^(-{3,}|={3,})$/gim,
       out: "<hr/>"
     }
+  ],
+  "*": [
+    {
+      reg: /\*{2}(.*)\*{2}/gi,
+      out: "<strong>$1</strong>"
+    }
+  ],
+  _: [
+    {
+      reg: /_{2}(.+)_{2}/gi,
+      out: "<strong>$1</strong>"
+    }
+  ],
+  "~": [
+    {
+      reg: /~{2}(.+)~{2}/gi,
+      out: "<s>$1</s>"
+    }
   ]
 };
